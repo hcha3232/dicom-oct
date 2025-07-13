@@ -1,0 +1,64 @@
+{
+  "hash": "a3527ccb",
+  "configHash": "2f22fce7",
+  "lockfileHash": "e107e84c",
+  "browserHash": "6a6808c4",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "a79a548c",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "afc486e5",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "feb375e1",
+      "needsInterop": false
+    },
+    "@cornerstonejs/core": {
+      "src": "../../node_modules/@cornerstonejs/core/dist/esm/index.js",
+      "file": "@cornerstonejs_core.js",
+      "fileHash": "100317ce",
+      "needsInterop": false
+    },
+    "@cornerstonejs/dicom-image-loader": {
+      "src": "../../node_modules/@cornerstonejs/dicom-image-loader/dist/esm/index.js",
+      "file": "@cornerstonejs_dicom-image-loader.js",
+      "fileHash": "d6324e92",
+      "needsInterop": false
+    },
+    "@cornerstonejs/tools": {
+      "src": "../../node_modules/@cornerstonejs/tools/dist/esm/index.js",
+      "file": "@cornerstonejs_tools.js",
+      "fileHash": "556286fe",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JW6DGSZT": {
+      "file": "chunk-JW6DGSZT.js"
+    },
+    "chunk-5HNGYYSW": {
+      "file": "chunk-5HNGYYSW.js"
+    },
+    "chunk-TVFQMRVC": {
+      "file": "chunk-TVFQMRVC.js"
+    },
+    "jpeg-FBXPXFYA": {
+      "file": "jpeg-FBXPXFYA.js"
+    },
+    "lossless-2HB6EIOE": {
+      "file": "lossless-2HB6EIOE.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
