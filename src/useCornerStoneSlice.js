@@ -30,7 +30,7 @@ export const useCornerstoneSlice = (dcmFileName) => {
                 });
 
                 // 3. imageIds for multi-frame DICOM
-                const baseUrl = window.location.origin;       
+                const baseUrl = import.meta.env.BASE_URL;      
                 const imageIds = [`wadouri:${baseUrl}/${dcmFileName}`];
 
                 // load stack into viewport
