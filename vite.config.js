@@ -20,7 +20,7 @@ function copyIndexTo404() {
 // https://vite.dev/config/
 export default defineConfig({
   base: '/dicom-oct',
-  plugins: [react(), viteCommonjs(),tailwindcss(),copyIndexTo404],
+  plugins: [react(), viteCommonjs(),tailwindcss(),copyIndexTo404()],
   optimizeDeps: {
     exclude: ['@cornerstonejs/dicom-image-loader'],
     include: ['dicom-parser'],
